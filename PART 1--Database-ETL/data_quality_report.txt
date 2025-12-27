@@ -1,0 +1,22 @@
+Number of records processed per file--
+Number of duplicates removed--
+Number of missing values handled--
+Number of records loaded successfully--
+
+CUSTOMERS DATA
+Original records: 26
+Missing values handled: 5 
+Duplicates removed: 1 
+Records loaded successfully: 25
+
+PRODUCTS DATA
+Original records: 20 (assuming no original shape was given, final shape = 20)
+Missing values handled: 4 
+Duplicates removed: 0 
+Records loaded successfully: 20
+
+SALES DATA
+Original records: 41
+Missing values handled: 5 
+Duplicates removed: 1 
+Records loaded successfully: 40
