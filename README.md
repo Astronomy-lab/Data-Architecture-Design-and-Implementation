@@ -67,7 +67,7 @@ mongosh < part2-nosql/mongodb_operations.js
 ## Challenges Faced
 
 1.- Challenge: In this Assignment many things is new for me like MySQL connector code and Mongodb query by using of Python.
-    Solution: I take Mr. SUSHANT sir classes and youtube videoes also helped taken from ai due to many codes not wory perfectly.
+  - Solution: I take Mr. SUSHANT sir classes and youtube videoes also helped taken from ai due to many codes not wory perfectly.
 2.- Challenge: Initially, I faced issues connecting Python to the MySQL database due to incorrect connection parameters.
   - Solution: I resolved this by double-checking the host, user, password, and database name in the connection string.  Additionally, I ensured that the MySQL server was running and accessible.
 3.- Challenge: Hard to create table from Python 
@@ -75,6 +75,6 @@ mongosh < part2-nosql/mongodb_operations.js
 4.- Challenge: MongoDB returns cursor objects, not tables.
   - Solution: So I used pd.DataFrame(list(result))
 5.- Challenge: Many codes not worked.
-    Solution: Research and learn new code with the help of chatgpt and youtube also from Mr. SUSHANT SIR.
+  - Solution: Research and learn new code with the help of chatgpt and youtube also from Mr. SUSHANT SIR.
 6.- Challenge: Many times MySQL code/script erase by mistake.
-    Solution: I prepare 2 query on it.If by mistake one erase then I will used another.
+  - Solution: I prepare 2 query on it.If by mistake one erase then I will used another.
