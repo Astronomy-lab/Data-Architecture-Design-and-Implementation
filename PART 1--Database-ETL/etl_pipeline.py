@@ -174,18 +174,18 @@ if "product_id" in clean_prod_df.columns:
 
 print("---- SALES DATA ----")
 
-# 1. Read CSV file
+#  Read CSV file
 sales_df = pd.read_csv(
     r"C:\Users\Lenovo\OneDrive\Documents\GitHub\Data\sales_raw.csv"
 )
 
-# 2. Remove duplicate rows
+#  Remove duplicate rows
 sales_df = sales_df.drop_duplicates()
 
-# 3. Handle missing values
+#  Handle missing values
 sales_df.fillna(0, inplace=True)
 
-# 4. Convert transaction_date to order_date (FIXED)
+#  Convert transaction_date to order_date (FIXED)
 sales_df["order_date"] = pd.to_datetime(
     sales_df["transaction_date"],
     format="%d/%m/%Y",   # <-- THIS IS THE FIX
@@ -195,7 +195,7 @@ sales_df["order_date"] = pd.to_datetime(
 sales_df["order_date"].fillna("1900-01-01", inplace=True)
 
 
-# 5. Convert customer_id & product_id to numbers
+#  Convert customer_id & product_id to numbers
 sales_df["customer_id"] = (
     sales_df["customer_id"]
     .astype(str)
@@ -210,11 +210,11 @@ sales_df["product_id"] = (
     .astype(int)
 )
 
-# 6. Convert quantity & unit_price
+#  Convert quantity & unit_price
 sales_df["quantity"] = sales_df["quantity"].astype(int)
 sales_df["unit_price"] = sales_df["unit_price"].astype(float)
 
-# 7. Calculate subtotal (for order_items table)
+#  Calculate subtotal (for order_items table)
 sales_df["subtotal"] = (
     sales_df["quantity"] * sales_df["unit_price"]
 )
