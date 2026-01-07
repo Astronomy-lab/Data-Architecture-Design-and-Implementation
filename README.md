@@ -12,21 +12,21 @@ And also we learn about MongoDB and how to put up a query without using MongoDB 
 And we will be knowing what a star schema is, how it looks, and how to make one. Also, we see by the using of query. 
 
 ## Repository Structure
-├── part1-database-etl/
-│   ├── etl_pipeline.py
-│   ├── schema_documentation.md
-│   ├── business_queries.sql
-│   └── data_quality_report.txt
-├── part2-nosql/
-│   ├── nosql_analysis.md
-│   ├── mongodb_operations.js
-│   └── products_catalog.json
-├── part3-datawarehouse/
-│   ├── star_schema_design.md
-│   ├── warehouse_schema.sql
-│   ├── warehouse_data.sql
-│   └── analytics_queries.sql
-└── README.md
+├── part1-database-etl/<br>
+│   ├── etl_pipeline.py<br>
+│   ├── schema_documentation.md<br>
+│   ├── business_queries.sql<br>
+│   └── data_quality_report.txt<br>
+├── part2-nosql/<br>
+│   ├── nosql_analysis.md<br>
+│   ├── mongodb_operations.js<br>
+│   └── products_catalog.json<br>
+├── part3-datawarehouse/<br>
+│   ├── star_schema_design.md<br>
+│   ├── warehouse_schema.sql<br>
+│   ├── warehouse_data.sql<br>
+│   └── analytics_queries.sql<br>
+└── README.md<br>
 
 
 ## Technologies Used
@@ -58,23 +58,23 @@ mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 mongosh < part2-nosql/mongodb_operations.js
 
 ## Key Learnings
-    By the help of this assignment, I have been able to learn many concepts and things include: 
-    1. Usage of python(How to insert the data from python to mysql and how to query putup without accessing mysql.) 
-    2. I have been able to learning NoSQL concepts and how to query and collect the data from mongo DB to python.
-    In addition to that, I have been able to learn concepts of Data warehouse and how to build a star schema and how to insert the data inside the fact and dimension table.
+    By the help of this assignment, I have been able to learn many concepts and things include: <br>
+    1. Usage of python(How to insert the data from python to mysql and how to query putup without accessing mysql.) <br>
+    2. I have been able to learning NoSQL concepts and how to query and collect the data from mongo DB to python.<br>
+    In addition to that, I have been able to learn concepts of Data warehouse and how to build a star schema and how to insert the data inside the fact and dimension table.<br>
 
 
 ## Challenges Faced
 
-1.- Challenge: In this Assignment many things is new for me like MySQL connector code and Mongodb query by using of Python.
-  - Solution: I take Mr. SUSHANT sir classes and youtube videoes also helped taken from ai due to many codes not wory perfectly.
-2.- Challenge: Initially, I faced issues connecting Python to the MySQL database due to incorrect connection parameters.
-  - Solution: I resolved this by double-checking the host, user, password, and database name in the connection string.  Additionally, I ensured that the MySQL server was running and accessible.
-3.- Challenge: Hard to create table from Python 
-  - Solution: I take tutorial classes and helping from youtube to learning.
-4.- Challenge: MongoDB returns cursor objects, not tables.
-  - Solution: So I used pd.DataFrame(list(result))
-5.- Challenge: Many codes not worked.
-  - Solution: Research and learn new code with the help of chatgpt and youtube also from Mr. SUSHANT SIR.
-6.- Challenge: Many times MySQL code/script erase by mistake.
-  - Solution: I prepare 2 query on it.If by mistake one erase then I will used another.
+1.- Challenge: In this Assignment many things is new for me like MySQL connector code and Mongodb query by using of Python.<br>
+  - Solution: I take Mr. SUSHANT sir classes and youtube videoes also helped taken from ai due to many codes not wory perfectly.<br>
+2.- Challenge: Initially, I faced issues connecting Python to the MySQL database due to incorrect connection parameters.<br>
+  - Solution: I resolved this by double-checking the host, user, password, and database name in the connection string.  Additionally, I ensured that the MySQL server was running and accessible.<br>
+3.- Challenge: Hard to create table from Python. <br>
+  - Solution: I take tutorial classes and helping from youtube to learning.<br>
+4.- Challenge: MongoDB returns cursor objects, not tables.<br>
+  - Solution: So I used pd.DataFrame(list(result)).<br>
+5.- Challenge: Many codes not worked.<br>
+  - Solution: Research and learn new code with the help of chatgpt and youtube also from Mr. SUSHANT SIR.<br>
+6.- Challenge: Many times MySQL code/script erase by mistake.<br>
+  - Solution: I prepare 2 query on it.If by mistake one erase then I will used another.<br>
