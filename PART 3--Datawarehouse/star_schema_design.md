@@ -22,7 +22,7 @@ The star schema design provides for both drill-down and roll-up capability throu
 
 
 
-Section 3--> Sample Data Flow (3 marks)
+Section 3--> Sample Data Flow 
 1. The Source (The Receipt) You start with one line that has everything mixed together:Order #101: John Doe bought 2 Laptops for ₹50,000 each on Jan 15, 2024.
 2. The Flow (The Split)To make this data useful, the system "shreds" the receipt and puts the details into different folders (Tables).
 The Descriptions (Dimension Tables): * Date: Stores the "When" (Jan 15, Q1).
