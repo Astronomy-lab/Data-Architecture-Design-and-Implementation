@@ -1,8 +1,6 @@
 # FlexiMart Data Architecture Project
 
 **Student Name:**  --Aditya Vikram Singh--   
-**Email:**         --vikadityasin@gmail.com--  
-**Date:**          --06/01/2026--  
 
 ## Project Overview
 
@@ -57,23 +55,8 @@ mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 mongosh < part2-nosql/mongodb_operations.js
 
 ## Key Learnings
-    By the help of this assignment, I have been able to learn many concepts and things include: <br>
-    1. Usage of python(How to insert the data from python to mysql and how to query putup without accessing mysql.) <br>
-    2. I have been able to learning NoSQL concepts and how to query and collect the data from mongo DB to python.<br>
-    In addition to that, I have been able to learn concepts of Data warehouse and how to build a star schema and how to insert the data inside the fact and dimension table.<br>
+    By the help of this assignment, I have been able to learn many concepts and things include: 
+    1. Usage of python(How to insert the data from python to mysql and how to query putup without accessing mysql.) 
+    2. I have been able to learning NoSQL concepts and how to query and collect the data from mongo DB to python.
+    In addition to that, I have been able to learn concepts of Data warehouse and how to build a star schema and how to insert the data inside the fact and dimension table.
 
-
-## Challenges Faced
-
-1.- Challenge: In this Assignment many things is new for me like MySQL connector code and Mongodb query by using of Python.<br>
-  - Solution: I take Mr. SUSHANT sir classes and youtube videoes also helped taken from ai due to many codes not wory perfectly.<br>
-2.- Challenge: Initially, I faced issues connecting Python to the MySQL database due to incorrect connection parameters.<br>
-  - Solution: I resolved this by double-checking the host, user, password, and database name in the connection string.  Additionally, I ensured that the MySQL server was running and accessible.<br>
-3.- Challenge: Hard to create table from Python. <br>
-  - Solution: I take tutorial classes and helping from youtube to learning.<br>
-4.- Challenge: MongoDB returns cursor objects, not tables.<br>
-  - Solution: So I used pd.DataFrame(list(result)).<br>
-5.- Challenge: Many codes not worked.<br>
-  - Solution: Research and learn new code with the help of chatgpt and youtube also from Mr. SUSHANT SIR.<br>
-6.- Challenge: Many times MySQL code/script erase by mistake.<br>
-  - Solution: I prepare 2 query on it.If by mistake one erase then I will used another.<br>
