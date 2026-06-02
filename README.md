@@ -53,6 +53,26 @@ mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 
 ### MongoDB Setup
 mongosh < part2-nosql/mongodb_operations.js
+images---
+MongoDb queries with using of Python
+<img width="909" height="781" alt="Screenshot 2026-06-02 203443" src="https://github.com/user-attachments/assets/56ba1d6f-2b26-466a-9005-c3ca874e330d" />
+
+<img width="879" height="764" alt="Screenshot 2026-06-02 203450" src="https://github.com/user-attachments/assets/5f680691-2b86-4d7c-8244-51fc423bce34" />
+
+<img width="860" height="751" alt="Screenshot 2026-06-02 203502" src="https://github.com/user-attachments/assets/b284db3b-347d-43e1-bdc9-47be19a9b107" />
+
+<img width="625" height="749" alt="Screenshot 2026-06-02 203511" src="https://github.com/user-attachments/assets/bd6d68b0-a048-4b2a-8b49-f471444cc06f" />
+
+<img width="651" height="373" alt="Screenshot 2026-06-02 203519" src="https://github.com/user-attachments/assets/f94f555a-e524-442f-8248-2eb39378eebd" />
+
+
+MongoDb data-
+<img width="679" height="797" alt="Screenshot 2026-06-02 203426" src="https://github.com/user-attachments/assets/773a1842-8253-424a-91e3-b2fdcb43a2ea" />
+
+SQL Query
+<img width="457" height="621" alt="Screenshot 2026-06-02 203711" src="https://github.com/user-attachments/assets/f5951018-bc12-4885-80c9-67ce25ee47af" />
+
+
 
 ## Key Learnings
     By the help of this assignment, I have been able to learn many concepts and things include: 
